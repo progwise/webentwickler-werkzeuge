@@ -1,1 +1,1 @@
-Niemand schreibt mehr CassComponents.
+Niemand schreibt mehr ClassComponents.
