@@ -1,4 +1,4 @@
-# Scenatio 1: Sharing a project that is stored on your local machine with your friends
+# Scenario 1: Sharing a project that is stored on your local machine with your friends
 
 Imagine that you have a project that you have been working on for a while and you want to share it with your friends. Then you can use a tool called `git`. Git is a tool that helps people who work together on a project to keep track of all the changes they make to the project, so that everyone knows what is going on and nothing gets lost. 
 
@@ -33,7 +33,6 @@ Alternatively, you can go the [GitHub](GitHub.com) and create a new repository t
 7. When you're ready, click the "Create repository" button.
 
 That's it! Your new repository is now created on GitHub. You can now add files and make changes to your repository using Git commands, or you can use GitHub's web interface to upload files and make changes.
-
 
 ## Staging files
 Then the next step is to stage the files that you want to commit. Staging means indexing the files the we want to commit and send to the remote server. It means, there might be situations that we do not want to push all the files in our local repository to be pushed to the remote server. Then, in these situations we use the staging with the following command to specify which files want to commit later:
@@ -73,13 +72,19 @@ committing means making a snapshot of the current state of the repo which we wan
 
 Finally, we can push (upload) our repo to the remote server with the following command:
 
-`Git push` 
+`git push` 
 
 ## Pulling
 
 To sync our local repository with the remote repository, we can use the following command:
 
 `git pull`
+
+***
+***
+***
+---
+___
 
 # Scenario 2: Cloning a remote repository from GitHub to your local machine
 
