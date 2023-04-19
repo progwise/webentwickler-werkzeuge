@@ -21,4 +21,7 @@ Once you have a package.json file, you can use npm to install packages. To insta
 Replace `<package-name>` with the name of the package you want to install. For example, to install the *React* library, you would type:
 
 `npm install react`
- 
+
+We can also abbreviate the command to:
+
+`npm i react`
