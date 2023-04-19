@@ -1,6 +1,6 @@
 # Scenario 1: Sharing a project that is stored on your local machine with your friends
 
-Imagine that you have a project that you have been working on for a while and you want to share it with your friends. Then you can use a tool called `git`. Git is a tool that helps people who work together on a project to keep track of all the changes they make to the project, so that everyone knows what is going on and nothing gets lost. 
+Imagine that you have a project that you have been working on for a while and you want to share it with your friends. Then you can use a tool called `git`. Git is a tool that helps people who work together on a project to keep track of all the changes they make to the project so that everyone knows what is going on and nothing gets lost. 
 
 ## Downloading and installing git
 You can download and install git from [here](https://git-scm.com/downloads).
@@ -35,7 +35,7 @@ Alternatively, you can go the [GitHub](GitHub.com) and create a new repository t
 That's it! Your new repository is now created on GitHub. You can now add files and make changes to your repository using Git commands, or you can use GitHub's web interface to upload files and make changes.
 
 ## Staging files
-Then the next step is to stage the files that you want to commit. Staging means indexing the files the we want to commit and send to the remote server. It means, there might be situations that we do not want to push all the files in our local repository to be pushed to the remote server. Then, in these situations we use the staging with the following command to specify which files want to commit later:
+Then the next step is to stage the files that you want to commit. Staging means indexing the files that we want to commit and send to the remote server. It means, there might be situations where we do not want to push all the files in our local repository to be pushed to the remote server. Then, in these situations we use the staging with the following command to specify which files want to commit later:
 
 `git add -p`
 
@@ -43,15 +43,15 @@ And then when it asks stage this hunk? We can press ‘y’ to stage the changes
 
 ## Branching
 
-If we want switch to a new branch before doing the commit we can use the following command:
+If we want to switch to a new branch before doing the commit we can use the following command:
 
 `git switch -c <branch-name>`
 
 Also, if we want to know in which branch we are we can use the following command:
 
-`git branch`
+`git branch` 
 
-or alternatively we can use the following command:
+alternatively, we can use the following command:
 
 `git status`
 
@@ -64,7 +64,7 @@ Moreover, to merge a branch to the current branch in which we are we can use the
 
 ## Committing
 
-committing means making a snapshot of the current state of the repo which we want to push to server. Therefore, we should also add a message following the commit command that declares the current state and changes in the local repo. To commit we use the following command:
+committing means taking a snapshot of the current state of the repo which we want to push to the server. Therefore, we should also add a message following the commit command that declares the current state and changes in the local repo. To commit we use the following command:
 
 `git commit -m “commit message”`
 
@@ -94,14 +94,14 @@ In order to save an initial copy of a remote git repository from GitHub we shoul
 
 `git clone <address to the remote repository>`
 
-The remaining steps are the same as the previous scenario.
+The remaining steps are the same as in the previous scenario.
 
 
 ### Using `git pull`
 
 To sync our local repository with the remote repository, we can use the following command:
 
-* `git pull`
+`git pull`
 
 
 This command will fetch any changes from the remote repository and merge them into our local repository. If there are any conflicts, we will need to resolve them manually before committing the changes.
